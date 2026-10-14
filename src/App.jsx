@@ -8,126 +8,21 @@ import Cart from "./components/Cart";
 import Contact from "./components/Contact";
 
 export const products = [
-  {
-    id: 1,
-    name: "Sculptural Sofa",
-    category: "Furniture",
-    price: 78500,
-    image: "sculptural-sofa.jpg",
-    description: "A soft architectural silhouette with generous proportions.",
-  },
-  {
-    id: 2,
-    name: "Travertine Coffee Table",
-    category: "Furniture",
-    price: 28500,
-    image: "stone-coffee-table.jpg",
-    description: "Natural stone character with a sculptural profile.",
-  },
-  {
-    id: 3,
-    name: "Curve Accent Chair",
-    category: "Seating",
-    price: 24500,
-    image: "accent-chair.jpg",
-    description: "Curved contemporary seating in tactile neutral fabric.",
-  },
-  {
-    id: 4,
-    name: "Arc Floor Lamp",
-    category: "Lighting",
-    price: 12500,
-    image: "floor-lamp.jpg",
-    description: "Sculptural lighting for relaxed modern interiors.",
-  },
-  {
-    id: 5,
-    name: "Minimal Console",
-    category: "Furniture",
-    price: 19800,
-    image: "console-table.jpg",
-    description: "A refined console with clean architectural lines.",
-  },
-  {
-    id: 6,
-    name: "Oak Dining Table",
-    category: "Furniture",
-    price: 48500,
-    image: "dining-table.jpg",
-    description: "Natural oak tones and understated modern detailing.",
-  },
-  {
-    id: 7,
-    name: "Orb Pendant Light",
-    category: "Lighting",
-    price: 15800,
-    image: "pendant-light.jpg",
-    description: "Soft ambient light with a distinctive contemporary form.",
-  },
-  {
-    id: 8,
-    name: "Lounge Chair",
-    category: "Seating",
-    price: 22500,
-    image: "lounge-chair.jpg",
-    description: "A relaxed silhouette for quiet corners and reading spaces.",
-  },
-  {
-    id: 9,
-    name: "Stone Side Table",
-    category: "Furniture",
-    price: 9800,
-    image: "side-table.jpg",
-    description: "A compact sculptural accent in a stone-inspired finish.",
-  },
-  {
-    id: 10,
-    name: "Abstract Wall Art",
-    category: "Decor",
-    price: 8500,
-    image: "wall-art.jpg",
-    description: "Muted abstract forms for carefully composed interiors.",
-  },
-  {
-    id: 11,
-    name: "Sculptural Ceramic Vase",
-    category: "Decor",
-    price: 3200,
-    image: "decor-vase.jpg",
-    description: "An organic decorative accent in an earthy finish.",
-  },
-  {
-    id: 12,
-    name: "Modern Living Interior",
-    category: "Interiors",
-    price: 145000,
-    image: "living-room.jpg",
-    description: "A complete living room concept in warm neutral tones.",
-  },
-  {
-    id: 13,
-    name: "Calm Bedroom Interior",
-    category: "Interiors",
-    price: 125000,
-    image: "bedroom.jpg",
-    description: "A serene bedroom with natural textures and soft light.",
-  },
-  {
-    id: 14,
-    name: "Contemporary Kitchen",
-    category: "Interiors",
-    price: 185000,
-    image: "modular-kitchen.jpg",
-    description: "A streamlined kitchen concept focused on function and form.",
-  },
-  {
-    id: 15,
-    name: "Modern Dining Interior",
-    category: "Interiors",
-    price: 115000,
-    image: "dining-room.jpg",
-    description: "An inviting dining space with sculptural lighting.",
-  },
+  { id: 1, name: "Sculptural Sofa", category: "Furniture", price: 78500, image: "sculptural-sofa.jpg", description: "A soft architectural silhouette with generous proportions." },
+  { id: 2, name: "Travertine Coffee Table", category: "Furniture", price: 28500, image: "stone-coffee-table.jpg", description: "Natural stone character with a sculptural profile." },
+  { id: 3, name: "Curve Accent Chair", category: "Seating", price: 24500, image: "accent-chair.jpg", description: "Curved contemporary seating in tactile neutral fabric." },
+  { id: 4, name: "Arc Floor Lamp", category: "Lighting", price: 12500, image: "floor-lamp.jpg", description: "Sculptural lighting for relaxed modern interiors." },
+  { id: 5, name: "Minimal Console", category: "Furniture", price: 19800, image: "console-table.jpg", description: "A refined console with clean architectural lines." },
+  { id: 6, name: "Oak Dining Table", category: "Furniture", price: 48500, image: "dining-table.jpg", description: "Natural oak tones and understated modern detailing." },
+  { id: 7, name: "Orb Pendant Light", category: "Lighting", price: 15800, image: "pendant-light.jpg", description: "Soft ambient light with a distinctive contemporary form." },
+  { id: 8, name: "Lounge Chair", category: "Seating", price: 22500, image: "lounge-chair.jpg", description: "A relaxed silhouette for quiet corners and reading spaces." },
+  { id: 9, name: "Stone Side Table", category: "Furniture", price: 9800, image: "side-table.jpg", description: "A compact sculptural accent in a stone-inspired finish." },
+  { id: 10, name: "Abstract Wall Art", category: "Decor", price: 8500, image: "wall-art.jpg", description: "Muted abstract forms for carefully composed interiors." },
+  { id: 11, name: "Sculptural Ceramic Vase", category: "Decor", price: 3200, image: "decor-vase.jpg", description: "An organic decorative accent in an earthy finish." },
+  { id: 12, name: "Modern Living Interior", category: "Interiors", price: 145000, image: "living-room.jpg", description: "A complete living room concept in warm neutral tones." },
+  { id: 13, name: "Calm Bedroom Interior", category: "Interiors", price: 125000, image: "bedroom.jpg", description: "A serene bedroom with natural textures and soft light." },
+  { id: 14, name: "Contemporary Kitchen", category: "Interiors", price: 185000, image: "modular-kitchen.jpg", description: "A streamlined kitchen concept focused on function and form." },
+  { id: 15, name: "Modern Dining Interior", category: "Interiors", price: 115000, image: "dining-room.jpg", description: "An inviting dining space with sculptural lighting." },
 ];
 
 function Navbar({ count }) {
@@ -138,7 +33,10 @@ function Navbar({ count }) {
     <nav className="navbar navbar-expand-lg forma-navbar">
       <div className="container">
         <Link to="/" className="navbar-brand forma-brand" onClick={closeMenu}>
-          <img src="/logo.png" alt="Forma Living Studio" />
+          <img
+            src={`${import.meta.env.BASE_URL}logo.png`}
+            alt="Forma Living Studio"
+          />
           <span>
             <strong>FORMA</strong>
             <small>LIVING STUDIO</small>

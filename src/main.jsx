@@ -10,8 +10,6 @@ import AOS from "aos";
 import App from "./App";
 
 import "./assets/style/style.css";
-import "./App.css";
-import "./index.css";
 
 AOS.init({
   duration: 800,

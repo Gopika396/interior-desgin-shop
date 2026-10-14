@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const img = (name) => `/src/assets/image/${name}`;
+import { img } from "../assets/image.js";
 
 export default function About() {
   return (

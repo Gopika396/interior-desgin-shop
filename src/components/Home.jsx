@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { products } from "../App";
 
-const img = (name) => `/src/assets/image/${name}`;
+import { img } from "../assets/image.js";
 
 export function ProductCard({ product, addToCart }) {
   return (
